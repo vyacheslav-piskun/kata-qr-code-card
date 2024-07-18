@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-html, body, h1, p, div, main, footer {
+html, body, h1, p, div, footer {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
