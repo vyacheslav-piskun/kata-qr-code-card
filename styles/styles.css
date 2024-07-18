@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+html, body, h1, p, div, main, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+}
+
+:root {
+    --c-snow: #fff;
+    --c-slate-light: hsl(212, 45%, 89%);
+    --c-slate-medium: hsl(216, 15%, 48%);
+    --c-slate-dark: hsl(218, 44%, 22%);
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--c-slate-light);
+}
+
+.card {
+    width: min(32rem, 100%);
+    padding: 1.6rem 1.6rem 4rem;
+    border-radius: 2rem;
+    background-color: var(--c-snow);
+}
+
+.card__image {
+    margin-bottom: 2.4rem;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.card-content {
+    padding: 0 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    font-family: Outfit, sans-serif;
+    font-style: normal;
+}
+
+.card-content__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 120%;
+    color: var(--c-slate-dark);
+}
+
+.card-content__description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 140%;
+    letter-spacing: 0.02rem;
+    color: var(--c-slate-medium);
+}
