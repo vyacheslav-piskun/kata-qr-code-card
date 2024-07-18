@@ -6,12 +6,6 @@ html, body, h1, p, div, footer {
     box-sizing: border-box;
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
-    font-size: 10px;
-}
-
 :root {
     --c-snow: #fff;
     --c-slate-light: hsl(212, 45%, 89%);
@@ -20,13 +14,23 @@ html, body {
     --c-soot-opacity-light: rgba(0, 0, 0, 0.0477);
 }
 
-.main {
+html, body {
+    height: 100%;
+    font-size: 10px;
+}
+
+
+.wrapper {
     height: 100%;
     padding: 1.6rem;
+    background-color: var(--c-slate-light);
+}
+
+.main {
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--c-slate-light);
 }
 
 .card {
@@ -75,8 +79,8 @@ html, body {
 
 .attribution {
     width: 100%;
-    padding: 1.6rem;
     max-width: 48rem;
+    padding: 1.6rem;
     position: fixed;
     bottom: 0;
     left: 50%;
